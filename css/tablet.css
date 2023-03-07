@@ -1,0 +1,62 @@
+@media screen and (min-width: 768px) {
+.container {
+ max-width: 766px;
+ }
+/* ------------------ hero ------------------ */
+.hero{
+    padding-bottom: 108px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet-bg1x.jpg);
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet-bg2x.jpg);
+    }
+}
+.hero-title{
+margin-bottom: 40px;
+    font-size: 56px;
+        line-height: 0.9;
+        min-width: 496px
+}
+
+/* ==================== hero ==================== */
+
+/*------------ features ------------*/
+
+ .features-list {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 24px;
+ }
+
+ .features-item {
+     max-width: 356px;
+ }
+
+ .features-item .title {
+     text-align: left;
+ }
+
+ .features-text {
+     text-align: left;
+ }
+ .mb1{
+    margin-bottom: 0;
+ }
+
+/*============ features ============*/
+
+/*------------------- team -------------------*/
+
+.team > .container {
+    max-width: 598px;
+}
+
+/*=================== team ===================*/
+
+ /*------------------ Customers ------------------*/
+
+ /*================== Customers ==================*/
+}
