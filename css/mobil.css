@@ -1,9 +1,23 @@
 @media screen and (min-width: 480px){
+  
     .container{
 max-width: 426px;
 margin-left: auto;
 margin-right: auto;
     }
+
+.mob-contact-tel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.9;
+
+}
+
+.mob-content-list {
+    display: flex;
+    gap: 56px;
+}
+
 /* ------------------ hero ------------------ */
 .hero-title{
         font-size: 36px;
@@ -39,5 +53,12 @@ margin-right: auto;
             height: 56px;
         }
    /*================== Customers ==================*/
+
+
+   /*-------------- Modal-form --------------*/
+   .modal {
+       width: 408px;
+   }
+   
      
 }
